@@ -12,6 +12,7 @@ load_dotenv()
 # openai.api_base = os.getenv("OPENAI_API_BASE")
 # openai.api_version = os.getenv("OPENAI_API_VERSION")
 openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.organization = os.getenv("OPENAI_ORG")
 
 gua_dict = {
     '阳阳阳': '乾',
